@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Core Platform Documentation on My New Hugo Site</title>
+    <link>http://example.org/core-platform-documentation/</link>
+    <description>Recent content in Core Platform Documentation on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/core-platform-documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication</title>
+      <link>http://example.org/core-platform-documentation/authn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/authn/</guid>
+      <description>The current GCP dev instance of the platform is configured to use our Okta Preview instance for authentication. This means you will need a separate Okta account (different from your Commure account) to log in. You can ask in the #team-platform-api channel in Slack for an account.
+Non-Interactive Login If you are developing tests, or need to be able to log in without user interaction (but not using a service account), you can use Okta primary authentication.</description>
+    </item>
+    
+    <item>
+      <title>Authorization</title>
+      <link>http://example.org/core-platform-documentation/authz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/authz/</guid>
+      <description>This document describes the CommureOS platform&amp;rsquo;s authorization model.
+Introduction Authorization is a special kind of business logic that is used to control access to resources and operations. It is often difficult to separate from regular business logic, and there is no universally accepted way to implement it. This document describes how we do it at Commure in the current iteration of our platform.
+Authentication vs Authorization The first thing to know about authorization is how it differs from authentication.</description>
+    </item>
+    
+    <item>
+      <title>Customers</title>
+      <link>http://example.org/core-platform-documentation/customers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/customers/</guid>
+      <description>Tenants Customer Tenant HCA 29e7de60-ec8b-46dc-81a0-5c20a5b2c421 </description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://example.org/core-platform-documentation/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/getting-started/</guid>
+      <description>CommureOS can be a bit overwhelming when you first try to install and run locally, so the goal of this is to simplify the process of onboarding and increase the overall efficiency of developers.
+Architecture Understanding the architecture at a high level will be helpful context to have before trying to install the core-platform. There are a few resources that will be helpful:
+Architecture Diagram Session 1 of our knowledge sharing series goes into the high level architecture.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Tenant Setup</title>
+      <link>http://example.org/core-platform-documentation/tenants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/tenants/</guid>
+      <description>Determining the Tenant The platform will use the following order to determine the tenant for the user:
+The tenants claim in the id token If there are multiple, the last one in the list is used To add the tenant claim, find the application in Okta and click modify next to the user on the assignments tab The default tenant (if configured) Warning The x-tenant-id header is now removed from the request headers in the kong cluster plugin</description>
+    </item>
+    
+    <item>
+      <title>GraphQL Subscriptions</title>
+      <link>http://example.org/core-platform-documentation/subscriptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/subscriptions/</guid>
+      <description>GraphQL subscriptions are supported through change data capture, redis, kafka and server send events.
+Subscription client The full spec of the SSE protocol was implemented, supporting both single connection and multiple connection modes. The AdminUI was adapted to use the sse library, and you can see how it&amp;rsquo;s working here.
+Local development The subscription support by default is disabled, if you want to use them you&amp;rsquo;ll need to append --with-subscriptions when running the start command:</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://example.org/core-platform-documentation/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/troubleshooting/</guid>
+      <description>With a complex architecture, there&amp;rsquo;s likely to be issues developers run into when developing on the platform. This is intended to track these and make it easier to find common issues.</description>
+    </item>
+    
+  </channel>
+</rss>

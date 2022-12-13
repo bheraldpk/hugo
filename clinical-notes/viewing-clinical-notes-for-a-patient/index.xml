@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viewing Clinical Notes for a Patient on My New Hugo Site</title>
+    <link>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/</link>
+    <description>Recent content in Viewing Clinical Notes for a Patient on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Displaying More Clinical Notes Data</title>
+      <link>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/displaying-more-clinical-notes-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/displaying-more-clinical-notes-data/</guid>
+      <description>Displaying More Clinical Notes Data The Clinical Notes window displays the most recent notes for the selected patient. If there are more notes to display, you can load them into the window until you see what you are looking for or until all of the available notes are displayed.
+The number of notes displayed at a time is based on the setting Number of Elements retrieved for “Load More” (Portal). This settings affects the number of notes that are initially displayed, and the number of additional notes displayed each time more data is loaded.</description>
+    </item>
+    
+    <item>
+      <title>Viewing the Details of a Text-Based Clinical Note</title>
+      <link>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-text-based-clinical-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-text-based-clinical-note/</guid>
+      <description>Viewing the Details of a Text-Based Clinical Note To view the contents of a text-based clinical note, use the vertical scroll bars to move your view to the top or bottom of the document. Some reports may use a wide table or columnar format. In this case, a horizontal scroll bar allows you to move your view to the left or right in order to see the contents of a wide document.</description>
+    </item>
+    
+    <item>
+      <title>Viewing the Details of a Scanned Clinical Note</title>
+      <link>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-scanned-clinical-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-scanned-clinical-note/</guid>
+      <description>To view the details of a scanned document, you can use the vertical and horizontal scroll bars. There are also several controls at the top of the detail window that allow you to manipulate the scanned image for better viewing.
+Use the controls at the top left of the detail window to reduce the document, fit the document to the window, or enlarge the document.
+Use the controls at the top center to go to the first page, previous page, next page, or last page of the document.</description>
+    </item>
+    
+  </channel>
+</rss>

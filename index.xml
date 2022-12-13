@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Home on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview of Schedule Management</title>
+      <link>http://example.org/schedule-management/scheduler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/schedule-management/scheduler/</guid>
+      <description>Overview of Schedule Management Navigating the Schedule Management Screen
+(A) Schedule drop-down lists the available shift schedules to display.
+(B) Schedule Status is displayed. Options include:
+Proposed Submitted Posted (C) The Schedule Grid shows the status of each staff during a particular shift based on the system’s Shift Code. Staff names are listed in alphabetical order and include their Skill, Type, and FTE. Indicators identify staff who are over time or under committed in the schedule.</description>
+    </item>
+    
+    <item>
+      <title>Adding Shift Schedule</title>
+      <link>http://example.org/schedule-management/add-shift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/schedule-management/add-shift/</guid>
+      <description>Add a Shift Schedule These steps describe how to add a shift for a nurse in the schedule grid.
+In the schedule grid, find the name of the staff you want to add in the schedule and then click the cell in the Shift Date column. In the sidebar that displays, edit the shift details and then click the Assign button. Select a Shift Code to designate which shift you are adding to.</description>
+    </item>
+    
+    <item>
+      <title>Authentication</title>
+      <link>http://example.org/core-platform-documentation/authn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/authn/</guid>
+      <description>The current GCP dev instance of the platform is configured to use our Okta Preview instance for authentication. This means you will need a separate Okta account (different from your Commure account) to log in. You can ask in the #team-platform-api channel in Slack for an account.
+Non-Interactive Login If you are developing tests, or need to be able to log in without user interaction (but not using a service account), you can use Okta primary authentication.</description>
+    </item>
+    
+    <item>
+      <title>Displaying More Clinical Notes Data</title>
+      <link>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/displaying-more-clinical-notes-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/displaying-more-clinical-notes-data/</guid>
+      <description>Displaying More Clinical Notes Data The Clinical Notes window displays the most recent notes for the selected patient. If there are more notes to display, you can load them into the window until you see what you are looking for or until all of the available notes are displayed.
+The number of notes displayed at a time is based on the setting Number of Elements retrieved for “Load More” (Portal). This settings affects the number of notes that are initially displayed, and the number of additional notes displayed each time more data is loaded.</description>
+    </item>
+    
+    <item>
+      <title>Authorization</title>
+      <link>http://example.org/core-platform-documentation/authz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/authz/</guid>
+      <description>This document describes the CommureOS platform&amp;rsquo;s authorization model.
+Introduction Authorization is a special kind of business logic that is used to control access to resources and operations. It is often difficult to separate from regular business logic, and there is no universally accepted way to implement it. This document describes how we do it at Commure in the current iteration of our platform.
+Authentication vs Authorization The first thing to know about authorization is how it differs from authentication.</description>
+    </item>
+    
+    <item>
+      <title>Cancelling a Shift</title>
+      <link>http://example.org/schedule-management/cancel-shift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/schedule-management/cancel-shift/</guid>
+      <description>Cancel a Shift Schedule In the schedule grid, find the name of the staff you want to cancel in the schedule and then click the cell in the Shift Date column. In the sidebar that displays, select a Shift Code to designate which shift you are editing. Click the Cancel Shift button. </description>
+    </item>
+    
+    <item>
+      <title>Viewing the Details of a Text-Based Clinical Note</title>
+      <link>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-text-based-clinical-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-text-based-clinical-note/</guid>
+      <description>Viewing the Details of a Text-Based Clinical Note To view the contents of a text-based clinical note, use the vertical scroll bars to move your view to the top or bottom of the document. Some reports may use a wide table or columnar format. In this case, a horizontal scroll bar allows you to move your view to the left or right in order to see the contents of a wide document.</description>
+    </item>
+    
+    <item>
+      <title>Customers</title>
+      <link>http://example.org/core-platform-documentation/customers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/customers/</guid>
+      <description>Tenants Customer Tenant HCA 29e7de60-ec8b-46dc-81a0-5c20a5b2c421 </description>
+    </item>
+    
+    <item>
+      <title>Fixing Over Time or Under Committed Staff</title>
+      <link>http://example.org/schedule-management/fix-overtime-undercommitted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/schedule-management/fix-overtime-undercommitted/</guid>
+      <description>Fixing Over Time or Under Committed Staff This is only available when a schedule is in Posted status.
+Find the staff who is Under Committed or Over Time. Over Time in schedule Under Commitment in schedule Hover over the icon to see which week(s) in the schedule needs attention. Select a shift in the schedule to add or cancel as needed to address the conflict(s). </description>
+    </item>
+    
+    <item>
+      <title>Viewing the Details of a Scanned Clinical Note</title>
+      <link>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-scanned-clinical-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-scanned-clinical-note/</guid>
+      <description>To view the details of a scanned document, you can use the vertical and horizontal scroll bars. There are also several controls at the top of the detail window that allow you to manipulate the scanned image for better viewing.
+Use the controls at the top left of the detail window to reduce the document, fit the document to the window, or enlarge the document.
+Use the controls at the top center to go to the first page, previous page, next page, or last page of the document.</description>
+    </item>
+    
+    <item>
+      <title>Fixing Under Staffed or Over Staffed Shifts</title>
+      <link>http://example.org/schedule-management/fix-understaffed-overstaffed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/schedule-management/fix-understaffed-overstaffed/</guid>
+      <description>Fixing Under Staffed or Over Staffed Shifts This is only available when a schedule is in Posted status.
+Find the shift date that is Under Staffed or Over Staffed. Under Staffed shifts are highlighted in red Over Staffed shifts are highlighted in orange {: style=&amp;ldquo;float: left; margin-right: 1em;&amp;rdquo;} Under Staffed shifts are highlighted in red
+In the Summary Periods section, select the Shift Total that you want to edit. In the sidebar that displays, select the Shift Code, select the needed staff, and then click Assign.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://example.org/core-platform-documentation/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/getting-started/</guid>
+      <description>CommureOS can be a bit overwhelming when you first try to install and run locally, so the goal of this is to simplify the process of onboarding and increase the overall efficiency of developers.
+Architecture Understanding the architecture at a high level will be helpful context to have before trying to install the core-platform. There are a few resources that will be helpful:
+Architecture Diagram Session 1 of our knowledge sharing series goes into the high level architecture.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Tenant Setup</title>
+      <link>http://example.org/core-platform-documentation/tenants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/tenants/</guid>
+      <description>Determining the Tenant The platform will use the following order to determine the tenant for the user:
+The tenants claim in the id token If there are multiple, the last one in the list is used To add the tenant claim, find the application in Okta and click modify next to the user on the assignments tab The default tenant (if configured) Warning The x-tenant-id header is now removed from the request headers in the kong cluster plugin</description>
+    </item>
+    
+    <item>
+      <title>GraphQL Subscriptions</title>
+      <link>http://example.org/core-platform-documentation/subscriptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/subscriptions/</guid>
+      <description>GraphQL subscriptions are supported through change data capture, redis, kafka and server send events.
+Subscription client The full spec of the SSE protocol was implemented, supporting both single connection and multiple connection modes. The AdminUI was adapted to use the sse library, and you can see how it&amp;rsquo;s working here.
+Local development The subscription support by default is disabled, if you want to use them you&amp;rsquo;ll need to append --with-subscriptions when running the start command:</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://example.org/core-platform-documentation/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/core-platform-documentation/troubleshooting/</guid>
+      <description>With a complex architecture, there&amp;rsquo;s likely to be issues developers run into when developing on the platform. This is intended to track these and make it easier to find common issues.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/schedule-management/overstaffed-shift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/schedule-management/overstaffed-shift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://example.org/getting-started/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/getting-started/overview/</guid>
+      <description>Welcome to this page!</description>
+    </item>
+    
+  </channel>
+</rss>

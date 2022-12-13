@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.107.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+   <title>Viewing Clinical Notes for a Patient :: My New Hugo Site</title>
+
+    
+    <link href="/css/nucleus.css?1670961844" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1670961844" rel="stylesheet">
+    <link href="/css/hybrid.css?1670961844" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1670961844" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1670961844" rel="stylesheet">
+    <link href="/css/auto-complete.css?1670961844" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1670961844" rel="stylesheet">
+    <link href="/css/theme.css?1670961844" rel="stylesheet">
+    <link href="/css/tabs.css?1670961844" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1670961844" rel="stylesheet">
+    
+    <link href="/css/theme-mine.css?1670961844" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1670961844"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="/clinical-notes/viewing-clinical-notes-for-a-patient/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <img src = "/img/Commure-logo_full-horizontal_cream.png"a>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1670961844"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1670961844"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/example.org\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1670961844"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/clinical-notes/" title="Clinical Notes" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/clinical-notes/">
+          Clinical Notes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/clinical-notes/viewing-clinical-notes-for-a-patient/" title="Viewing Clinical Notes for a Patient" class="dd-item
+        
+        active
+        
+        ">
+      <a href="/clinical-notes/viewing-clinical-notes-for-a-patient/">
+          Viewing Clinical Notes for a Patient
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/clinical-notes/viewing-clinical-notes-for-a-patient/displaying-more-clinical-notes-data/" title="Displaying More Clinical Notes Data" class="dd-item ">
+        <a href="/clinical-notes/viewing-clinical-notes-for-a-patient/displaying-more-clinical-notes-data/">
+        Displaying More Clinical Notes Data
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-text-based-clinical-note/" title="Viewing the Details of a Text-Based Clinical Note" class="dd-item ">
+        <a href="/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-text-based-clinical-note/">
+        Viewing the Details of a Text-Based Clinical Note
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-scanned-clinical-note/" title="Viewing the Details of a Scanned Clinical Note" class="dd-item ">
+        <a href="/clinical-notes/viewing-clinical-notes-for-a-patient/viewing-the-details-of-a-scanned-clinical-note/">
+        Viewing the Details of a Scanned Clinical Note
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/clinical-notes/writing-and-maintaining-clinical-notes/" title="Writing and Maintaining Clinical Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/clinical-notes/writing-and-maintaining-clinical-notes/">
+          Writing and Maintaining Clinical Notes
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/core-platform-documentation/" title="Core Platform Documentation" class="dd-item
+        
+        
+        
+        ">
+      <a href="/core-platform-documentation/">
+          Core Platform Documentation
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/core-platform-documentation/authn/" title="Authentication" class="dd-item ">
+        <a href="/core-platform-documentation/authn/">
+        Authentication
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/core-platform-documentation/authz/" title="Authorization" class="dd-item ">
+        <a href="/core-platform-documentation/authz/">
+        Authorization
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/core-platform-documentation/customers/" title="Customers" class="dd-item ">
+        <a href="/core-platform-documentation/customers/">
+        Customers
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/core-platform-documentation/getting-started/" title="Getting Started" class="dd-item ">
+        <a href="/core-platform-documentation/getting-started/">
+        Getting Started
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/core-platform-documentation/tenants/" title="Multi-Tenant Setup" class="dd-item ">
+        <a href="/core-platform-documentation/tenants/">
+        Multi-Tenant Setup
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/core-platform-documentation/subscriptions/" title="GraphQL Subscriptions" class="dd-item ">
+        <a href="/core-platform-documentation/subscriptions/">
+        GraphQL Subscriptions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/core-platform-documentation/troubleshooting/" title="Troubleshooting" class="dd-item ">
+        <a href="/core-platform-documentation/troubleshooting/">
+        Troubleshooting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/getting-started/" title="Getting Starteds" class="dd-item
+        
+        
+        
+        ">
+      <a href="/getting-started/">
+          Getting Starteds
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/getting-started/overview/" title="Overview" class="dd-item ">
+        <a href="/getting-started/overview/">
+        Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/release-notes/" title="Release Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/release-notes/">
+          Release Notes
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/schedule-management/" title="Schedule Management" class="dd-item
+        
+        
+        
+        ">
+      <a href="/schedule-management/">
+          Schedule Management
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/schedule-management/scheduler/" title="Overview of Schedule Management" class="dd-item ">
+        <a href="/schedule-management/scheduler/">
+        Overview of Schedule Management
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/schedule-management/add-shift/" title="Adding Shift Schedule" class="dd-item ">
+        <a href="/schedule-management/add-shift/">
+        Adding Shift Schedule
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/schedule-management/cancel-shift/" title="Cancelling a Shift" class="dd-item ">
+        <a href="/schedule-management/cancel-shift/">
+        Cancelling a Shift
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/schedule-management/fix-overtime-undercommitted/" title="Fixing Over Time or Under Committed Staff" class="dd-item ">
+        <a href="/schedule-management/fix-overtime-undercommitted/">
+        Fixing Over Time or Under Committed Staff
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/schedule-management/fix-understaffed-overstaffed/" title="Fixing Under Staffed or Over Staffed Shifts" class="dd-item ">
+        <a href="/schedule-management/fix-understaffed-overstaffed/">
+        Fixing Under Staffed or Over Staffed Shifts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/schedule-management/overstaffed-shift/" title="" class="dd-item ">
+        <a href="/schedule-management/overstaffed-shift/">
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/clinical-notes/'>Clinical Notes</a> > Viewing Clinical Notes for a Patient
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#viewing-clinical-notes-for-a-patient">Viewing Clinical Notes for a Patient</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Viewing Clinical Notes for a Patient
+            </h1>
+          
+
+        
+
+
+
+	<h2 id="viewing-clinical-notes-for-a-patient">Viewing Clinical Notes for a Patient</h2>
+<p>The Clinical Notes display option is an optional feature that may or may not be implemented for your organization. It allows you to review a summary list of the notes on file for a particular patient.</p>
+<p>All signed and draft notes created in PatientKeeper NoteWriter display on the Clinical Notes list, along with other notes that were created using other applications. From the Clinical Notes list, you can:</p>
+<ul>
+<li>Sort all documents on this list according to date, author, and note type.</li>
+<li>Pre-select one or more notes from the Clinical Notes list to include in your next NoteWriter note. To pre-select notes that you created in NoteWriter, they must be signed.</li>
+</ul>
+<p>You can view any of your own NoteWriter notes from the Clinical Notes display option, but you cannot make edits to a note unless it is in draft form and you are the note author.</p>
+<p>You can see the date the note was written, the type of note (admission, discharge, etc.), and the author. In addition to the summarized list of notes, you can also view the contents of any specific note on the list, including the content for PDF or scanned documents.</p>
+<p>The display properties of signed and draft notes on the Clinical Notes display can be differentiated in several ways:
+(insert table)</p>
+<p>To view clinical notes, follow these steps:</p>
+<ol>
+<li>Select a patient on the Patient List tab, or click on the Details icon  from another option.</li>
+<li>Click Clinical Notes from the display list.</li>
+</ol>
+<p>The patient data display area shows the Clinical Notes window that contains a list of the most recent clinical notes for the selected patient, including both text-based documents and scanned images of documents. It contains columns for Date/Time, Note Type, and Author.</p>
+<p>If you are looking for a note that you do not see in the results list, click the Load More Data button at the bottom of the list. If additional notes exist, they are added to the bottom of the existing list. For information on loading more data, see Displaying More Clinical Notes Data on page 36.</p>
+<p>Consult your PatientKeeper representative if you would like to adjust the height of this window, to make it larger or smaller or to adjust the default number of results that are displayed.</p>
+<p>For scanned documents, the word “Scanned” precedes the description of the note type (for example, “Scanned: History and Physical”). In addition, the Author column shows the name of the person who scanned the document into the system, while the image of the document itself usually contains the true author. Your organization can suppress the Author column for scanned documents via an XML customization if they do not want the name of the scanner to show. If this customization is implemented, the Author column will be blank for scanned documents.</p>
+<ul>
+<li>
+<p>You may change the order in which the Clinical Notes are sorted, by clicking on a heading. For example, clicking the Author field would sort the notes alphabetically by author. Clicking any column header a second time reverses the sort order.</p>
+<p><strong>NOTE</strong>: If you click Load More Data the sort order is reset. Click a heading to sort the results again after loading more data into the list.</p>
+</li>
+<li>
+<p>You may filter the list of clinical notes, by types of note. To do so, click the drop-down filter located in the upper right corner of the Clinical Notes window. The various types of notes used by your institution are included in the filter list. Select items from the list to view only those types in the Clinical Notes window and then click OK. The drop-down filter will display as Filtered to indicate that you have chosen a subset of filters instead of All.</p>
+</li>
+</ul>
+<ol start="3">
+<li>
+<p>If you would like to see the details of a clinical note itself, simply click on that note in the summary list. The Clinical Notes detail window opens below the summary list, showing you the full contents of the note. The tools available on the detail window depend on whether the note is a text-based document or a scanned document.</p>
+<ul>
+<li>See Viewing the Details of a Text-Based Clinical Note on page 37 for instructions on viewing the contents of a text-based document.</li>
+<li>See Viewing the Details of a Scanned Clinical Note on page 37 for instructions on viewing the contents of a scanned document.</li>
+</ul>
+</li>
+<li>
+<p>(Optional) You may print the Summary or Detail window by clicking Print . For details on printing in the display area, see the text describing Print icon in Understanding the Patient Data Display.</p>
+</li>
+</ol>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/clinical-notes/" title="Clinical Notes"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/clinical-notes/viewing-clinical-notes-for-a-patient/displaying-more-clinical-notes-data/" title="Displaying More Clinical Notes Data" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1670961844"></script>
+    <script src="/js/perfect-scrollbar.min.js?1670961844"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1670961844"></script>
+    <script src="/js/jquery.sticky.js?1670961844"></script>
+    <script src="/js/featherlight.min.js?1670961844"></script>
+    <script src="/js/highlight.pack.js?1670961844"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1670961844"></script>
+    <script src="/js/learn.js?1670961844"></script>
+    <script src="/js/hugo-learn.js?1670961844"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1670961844"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
